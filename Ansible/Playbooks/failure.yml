@@ -1,0 +1,12 @@
+--- # Error handling example
+- hosts: apacheweb
+  user: ansible
+  become_method: sudo
+  become: yes
+  gather_facts: no
+  tasks:
+    - name: Execute a command that will fail
+      command: /bin/false
+      ignore_errors: yes
+    - name: Install Telnet
+      yum: name=telnet state=latest

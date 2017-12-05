@@ -1,0 +1,4 @@
+[1;35m [WARNING]: It is unnecessary to use '{{' in loops, leave variables in loop
+expressions bare.
+[0m
+[0;31mERROR: become_user is not a legal parameter in an Ansible task or handler[0m

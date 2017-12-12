@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import urllib, argparse, os, sys
 # HTML Parser
 from bs4 import BeautifulSoup

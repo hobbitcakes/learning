@@ -1,0 +1,75 @@
+[36mDEBUG[0m 15:48:41  revel  server.go:27: RegisterServerEngine: Registered engine   [36msection[0m=server [36mname[0m=go 
+[0;34m~
+~ revel! http://revel.github.io
+~
+[0mTrying to build with myapp (0x0,0x0)
+[36mDEBUG[0m 15:48:41  revel module.go:145: Sorted keys                               [36msection[0m=module [36mkeys[0m=module.static 
+[36mDEBUG[0m 15:48:41  revel module.go:145: Sorted keys                               [36msection[0m=module [36mkeys[0m=module.testrunner 
+[36mDEBUG[0m 15:48:41  revel module.go:190: Loaded module                             [36msection[0m=module  
+[36mDEBUG[0m 15:48:41  revel module.go:190: Loaded module                             [36msection[0m=module  
+[36mDEBUG[0m 15:48:41  revel module.go:196: Found testrunner module, adding `tests` path   [36msection[0m=module [36mpath[0m=/home/jeded/learning/Python/people/gocode/src/myapp/tests 
+[32mINFO [0m 15:48:41  revel  revel.go:204: Initialized Revel                         [32mVersion[0m=0.18.0 [32mBuildDate[0m=2017-10-30 [32mMinimumGoVersion[0m=">= go1.6" 
+[32mINFO [0m 15:48:41  revel    run.go:124: Running myapp (myapp) in dev mode
+        
+[36mDEBUG[0m 15:48:41  revel    run.go:125: Base path:                                [36mpath[0m=/home/jeded/learning/Python/people/gocode/src/myapp 
+[36mDEBUG[0m 15:48:41  revel    run.go:129: Running in watched mode.                  
+[36mDEBUG[0m 15:48:41  revel template.go:116: Refresh: Refreshing templates from        [36msection[0m=template [36mpath[0m=[/home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates] 
+[36mDEBUG[0m 15:48:41  revel template_engine.go:65: CreateTemplateEngine: init templates      [36msection[0m=template [36mname[0m=go 
+[36mDEBUG[0m 15:48:41  revel template.go:144: Refresh: Refreshing templates from        [36msection[0m=template [36mpath[0m=[/home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates] 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/403.html  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/403.json  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/403.txt  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/403.xml  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/404-dev.html  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/404.html  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/404.json  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/404.txt  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/404.xml  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/405.html  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/405.json  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/405.txt  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/405.xml  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/500-dev.html  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/500.html  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/500.json  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/500.txt  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel template.go:330: loadIntoEngine:Engine 'go' compiled /home/jeded/learning/Python/people/gocode/src/github.com/revel/revel/templates/errors/500.xml  [36msection[0m=template 
+[36mDEBUG[0m 15:48:41  revel harness.go:146: Rebuild Called                            
+[32mINFO [0m 15:48:41  revel  build.go:235: Cleaning dir tmp                          
+[32mINFO [0m 15:48:41  revel  build.go:235: Cleaning dir routes                       
+[33mWARN [0m 15:48:41  revel reflect.go:723: Type found in package: controllers, but did not embed from: revel.Controller  [33mname[0m=TestSuiteDesc [33mpath[0m=github.com/revel/modules/testrunner/app/controllers 
+[33mWARN [0m 15:48:41  revel reflect.go:723: Type found in package: controllers, but did not embed from: revel.Controller  [33mname[0m=TestDesc [33mpath[0m=github.com/revel/modules/testrunner/app/controllers 
+[33mWARN [0m 15:48:41  revel reflect.go:723: Type found in package: controllers, but did not embed from: revel.Controller  [33mname[0m=TestSuiteResult [33mpath[0m=github.com/revel/modules/testrunner/app/controllers 
+[33mWARN [0m 15:48:41  revel reflect.go:723: Type found in package: controllers, but did not embed from: revel.Controller  [33mname[0m=TestResult [33mpath[0m=github.com/revel/modules/testrunner/app/controllers 
+[32mINFO [0m 15:48:41  revel  build.go:235: Cleaning dir tmp                          
+[32mINFO [0m 15:48:41  revel  build.go:235: Cleaning dir routes                       
+[32mINFO [0m 15:48:41  revel   build.go:96: No vendor folder detected, not using dependency manager to import files  
+[36mDEBUG[0m 15:48:41  revel  build.go:139: Exec:                                     [36margs[0m="[/usr/lib/go-1.9/bin/go build -i -ldflags -X myapp/app.AppVersion= -X myapp/app.BuildTime=2017-12-15T21:48:41Z -tags  -o /home/jeded/learning/Python/people/gocode/bin/revel.d/myapp/myapp myapp/app/tmp]" 
+[36mDEBUG[0m 15:48:42  revel     app.go:63: Exec app:                                 [36mpath[0m=/home/jeded/learning/Python/people/gocode/bin/revel.d/myapp/myapp [36margs[0m="[/home/jeded/learning/Python/people/gocode/bin/revel.d/myapp/myapp -port=44223 -importPath=myapp -runMode=dev]" 
+[36mDEBUG[0m 15:48:42  revel  server.go:27: RegisterServerEngine: Registered engine   [36msection[0m=server [36mname[0m=go 
+[36mDEBUG[0m 15:48:42  revel module.go:145: Sorted keys                               [36msection[0m=module [36mkeys[0m=module.static 
+[36mDEBUG[0m 15:48:42  revel module.go:145: Sorted keys                               [36msection[0m=module [36mkeys[0m=module.testrunner 
+[36mDEBUG[0m 15:48:42  revel module.go:190: Loaded module                             [36msection[0m=module  
+[36mDEBUG[0m 15:48:42  revel module.go:190: Loaded module                             [36msection[0m=module  
+[36mDEBUG[0m 15:48:42  revel module.go:196: Found testrunner module, adding `tests` path   [36msection[0m=module [36mpath[0m=/home/jeded/learning/Python/people/gocode/src/myapp/tests 
+[32mINFO [0m 15:48:42  revel  revel.go:204: Initialized Revel                         [32mVersion[0m=0.18.0 [32mBuildDate[0m=2017-10-30 [32mMinimumGoVersion[0m=">= go1.6" 
+[32mINFO [0m 15:48:42    app    main.go:30: Running revel server                      
+[36mDEBUG[0m 15:48:42  revel controller_type.go:64: Registered controller: App\app            [36msection[0m=controller 
+[36mDEBUG[0m 15:48:42  revel controller.go:523: RegisterController:Registered controller  [36msection[0m=controller [36mcontroller[0m=App\\app 
+[36mDEBUG[0m 15:48:42  revel controller_type.go:64: Registered controller: static\static      [36msection[0m=controller 
+[36mDEBUG[0m 15:48:42  revel controller.go:523: RegisterController:Registered controller  [36msection[0m=controller [36mcontroller[0m=static\\static 
+[36mDEBUG[0m 15:48:42  revel controller_type.go:64: Registered controller: testrunner\testrunner  [36msection[0m=controller 
+[36mDEBUG[0m 15:48:42  revel controller.go:523: RegisterController:Registered controller  [36msection[0m=controller [36mcontroller[0m=testrunner\\testrunner 
+[36mDEBUG[0m 15:48:42  revel server.go:106: InitServerEngine: Found server engine and invoking  [36msection[0m=server [36mname[0m=go 
+[32mINFO [0m 15:48:42    app  utils.go:134: Adding standard handler crit output stderr  [32msection[0m=system 
+[32mINFO [0m 15:48:42    app  utils.go:113: Adding key map handler log.all.filter.module.app all output stdout  [32msection[0m=system 
+[32mINFO [0m 15:48:42    app  utils.go:113: Adding key map handler log.error.nfilter.module.app error output stderr  [32msection[0m=system 
+[32mINFO [0m 15:48:42    app   plugin.go:9: Go to /@tests to run the tests.           
+Listening on.. localhost:44223
+[32mINFO [0m 15:48:42  revel harness.go:190: Listening on :9000                        
+[32mINFO [0m 15:49:02    app server-engine.go:165: Request Stats                             [32mip[0m=127.0.0.1 [32mpath[0m=/ [32mmethod[0m=GET [32maction[0m=App.Index [32mnamespace[0m=App\\ [32mstart[0m=2017/12/15 15:49:02 [32mstatus[0m=200 [32mduration_seconds[0m=0.0041277 [32msection[0m=requestlog 
+[32mINFO [0m 15:49:02 static server-engine.go:165: Request Stats                             [32mip[0m=127.0.0.1 [32mpath[0m=/public/css/bootstrap-3.3.6.min.css [32mmethod[0m=GET [32mstart[0m=2017/12/15 15:49:02 [32mstatus[0m=200 [32mduration_seconds[0m=0.0002689 [32msection[0m=requestlog 
+[32mINFO [0m 15:49:02 static server-engine.go:165: Request Stats                             [32mip[0m=127.0.0.1 [32mpath[0m=/public/js/jquery-2.2.4.min.js [32mmethod[0m=GET [32mstart[0m=2017/12/15 15:49:02 [32mstatus[0m=200 [32mduration_seconds[0m=0.0001483 [32msection[0m=requestlog 
+[32mINFO [0m 15:49:02 static server-engine.go:165: Request Stats                             [32mip[0m=127.0.0.1 [32mpath[0m=/public/js/bootstrap-3.3.6.min.js [32mmethod[0m=GET [32mstart[0m=2017/12/15 15:49:02 [32mstatus[0m=200 [32mduration_seconds[0m=0.0001556 [32msection[0m=requestlog 
+[32mINFO [0m 15:49:02 static server-engine.go:165: Request Stats                             [32mip[0m=127.0.0.1 [32mpath[0m=/public/fonts/glyphicons-halflings-regular.woff2 [32mmethod[0m=GET [32mstart[0m=2017/12/15 15:49:02 [32mstatus[0m=200 [32mduration_seconds[0m=0.0002100 [32msection[0m=requestlog 
+[32mINFO [0m 15:49:02 static server-engine.go:165: Request Stats                             [32mip[0m=127.0.0.1 [32mpath[0m=/public/img/favicon.png [32mmethod[0m=GET [32mstart[0m=2017/12/15 15:49:02 [32mstatus[0m=200 [32mduration_seconds[0m=0.0003190 [32msection[0m=requestlog 

@@ -3,6 +3,7 @@
 name = raw_input("What is your name? ")
 birthdate = raw_input("What is your birthdate? ")
 
+# Don't generally use input, use raw_input and cast to desired type
 age = input("How old are you? ")
 
 print("%s was born on %s" % (name, birthdate))

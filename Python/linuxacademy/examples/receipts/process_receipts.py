@@ -4,6 +4,8 @@ import glob
 import os
 import shutil
 import json
+import re
+import math
 
 try:
     os.mkdir("./processed")
@@ -11,7 +13,11 @@ except OSError:
     print("'processed' directory already exists")
 
 # Get a list of receipts
-receipts = glob.glob('./new/receipt-[0-9]*.json')
+#receipts = glob.glob('./new/receipt-[0-9]*.json')
+
+# Use a list comprenesion
+receipts = [f for f in glob.iglob('./new/receipt-[0-9]*.json') 
+        if re.match('./new/receipt-[0-9]*[02468].json', f)]
 
 subtotal = 0.0
 
@@ -23,18 +29,11 @@ for path in receipts:
     with open(path) as f:
         content = json.load(f)
         subtotal += float(content['value'])
-    # Get the last element separated by '/'. (the file name)
-    name = path.split('/')[-1]
     # Create the location + filename to which the file will be moved 
-    destination = "./processed/%s" % name
+    destination = path.replace('new', "processed")
     # Move the file
     shutil.move(path, destination)
     print("Moved '%s' to '%s'" % (path, destination))
 
 # Print the subtotal of all processed receipts
-print("Receipt subtotal: $%.2f" % subtotal)
-
-
-
-
-
+print("Receipt subtotal: $%s" % round(subtotal, 2))

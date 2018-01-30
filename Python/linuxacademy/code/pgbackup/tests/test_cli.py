@@ -52,4 +52,4 @@ def test_parser_with_known_driver(parser):
     """
     parser = cli.create_parser()
     for driver in ['local', 's3']:
-        assert parser.parse_args([url, '--driver', driver 'destination'])
+        assert parser.parse_args([url, '--driver', driver, 'destination'])

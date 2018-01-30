@@ -1,4 +1,6 @@
 README.rst
+setup.cfg
+setup.py
 src/pgbackup/__init__.py
 src/pgbackup/cli.py
 src/pgbackup/pgdump.py

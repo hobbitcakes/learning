@@ -1,0 +1,51 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/home/user/.local/share/virtualenvs/pgbackup-FI3nRiyF/bin/python2', local('/home/user/learning/Python/linuxacademy/code/pgbackup/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/user/learning/Python/linuxacademy/code/pgbackup/.tox/dist')]
+
+running sdist
+running egg_info
+writing requirements to src/pgbackup.egg-info/requires.txt
+writing src/pgbackup.egg-info/PKG-INFO
+writing top-level names to src/pgbackup.egg-info/top_level.txt
+writing dependency_links to src/pgbackup.egg-info/dependency_links.txt
+writing entry points to src/pgbackup.egg-info/entry_points.txt
+reading manifest file 'src/pgbackup.egg-info/SOURCES.txt'
+writing manifest file 'src/pgbackup.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+creating pgbackup-0.1.0
+creating pgbackup-0.1.0/src
+creating pgbackup-0.1.0/src/pgbackup
+creating pgbackup-0.1.0/src/pgbackup.egg-info
+copying files to pgbackup-0.1.0...
+copying README.rst -> pgbackup-0.1.0
+copying setup.cfg -> pgbackup-0.1.0
+copying setup.py -> pgbackup-0.1.0
+copying src/pgbackup/__init__.py -> pgbackup-0.1.0/src/pgbackup
+copying src/pgbackup/cli.py -> pgbackup-0.1.0/src/pgbackup
+copying src/pgbackup/pgdump.py -> pgbackup-0.1.0/src/pgbackup
+copying src/pgbackup/storage.py -> pgbackup-0.1.0/src/pgbackup
+copying src/pgbackup.egg-info/PKG-INFO -> pgbackup-0.1.0/src/pgbackup.egg-info
+copying src/pgbackup.egg-info/SOURCES.txt -> pgbackup-0.1.0/src/pgbackup.egg-info
+copying src/pgbackup.egg-info/dependency_links.txt -> pgbackup-0.1.0/src/pgbackup.egg-info
+copying src/pgbackup.egg-info/entry_points.txt -> pgbackup-0.1.0/src/pgbackup.egg-info
+copying src/pgbackup.egg-info/requires.txt -> pgbackup-0.1.0/src/pgbackup.egg-info
+copying src/pgbackup.egg-info/top_level.txt -> pgbackup-0.1.0/src/pgbackup.egg-info
+Writing pgbackup-0.1.0/setup.cfg
+creating '.tox/dist/pgbackup-0.1.0.zip' and adding 'pgbackup-0.1.0' to it
+adding 'pgbackup-0.1.0/README.rst'
+adding 'pgbackup-0.1.0/setup.cfg'
+adding 'pgbackup-0.1.0/setup.py'
+adding 'pgbackup-0.1.0/PKG-INFO'
+adding 'pgbackup-0.1.0/src/pgbackup/__init__.py'
+adding 'pgbackup-0.1.0/src/pgbackup/cli.py'
+adding 'pgbackup-0.1.0/src/pgbackup/pgdump.py'
+adding 'pgbackup-0.1.0/src/pgbackup/storage.py'
+adding 'pgbackup-0.1.0/src/pgbackup.egg-info/PKG-INFO'
+adding 'pgbackup-0.1.0/src/pgbackup.egg-info/SOURCES.txt'
+adding 'pgbackup-0.1.0/src/pgbackup.egg-info/dependency_links.txt'
+adding 'pgbackup-0.1.0/src/pgbackup.egg-info/entry_points.txt'
+adding 'pgbackup-0.1.0/src/pgbackup.egg-info/requires.txt'
+adding 'pgbackup-0.1.0/src/pgbackup.egg-info/top_level.txt'
+removing 'pgbackup-0.1.0' (and everything under it)

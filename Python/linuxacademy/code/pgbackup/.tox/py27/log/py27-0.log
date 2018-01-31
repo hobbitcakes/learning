@@ -1,0 +1,9 @@
+actionid: py27
+msg: getenv
+cmdargs: ['/home/user/.local/share/virtualenvs/pgbackup-FI3nRiyF/bin/python2', '-m', 'virtualenv', '--python', '/home/user/.local/share/virtualenvs/pgbackup-FI3nRiyF/bin/python2.7', 'py27']
+
+Using real prefix '/usr'
+New python executable in /home/user/learning/Python/linuxacademy/code/pgbackup/.tox/py27/bin/python2.7
+Also creating executable in /home/user/learning/Python/linuxacademy/code/pgbackup/.tox/py27/bin/python
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/user/.local/share/virtualenvs/pgbackup-FI3nRiyF/bin/python2.7

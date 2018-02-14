@@ -1,0 +1,8 @@
+Example labels:
+
+* "release" : "stable", "release" : "canary"
+* "environment" : "dev", "environment" : "qa", "environment" : "production"
+* "tier" : "customerA", "partition" : "customerB"
+* "track" : "daily", "track" : "weekly"
+
+These are just examples of commonly used labels; you are free to develop your own conventions. Keep in mind that label Key must be uniqe for a given object

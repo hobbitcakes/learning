@@ -1,0 +1,5 @@
+---
+  - name: Execute /bin/true
+    command: /bin/true 
+    notify:
+      - True Handler

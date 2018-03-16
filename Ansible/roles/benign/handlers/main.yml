@@ -1,0 +1,4 @@
+---
+- name: True Handler
+  command: /bin/true
+  

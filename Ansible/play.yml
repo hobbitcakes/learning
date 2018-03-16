@@ -1,0 +1,6 @@
+---
+- hosts: raspberrys
+  gather_facts: no
+  tasks:
+  - include_role:
+      name: benign

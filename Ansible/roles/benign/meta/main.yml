@@ -1,0 +1,5 @@
+---
+author: Jared Peterson
+description: Execute /bin/true
+platforms:
+- name: Linux

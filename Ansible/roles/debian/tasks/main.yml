@@ -1,0 +1,10 @@
+---
+  - name: update
+    apt:
+      update_cache: yes
+      name: "*"
+      state: latest
+    become: yes
+    become_method: sudo
+    
+  

@@ -1,0 +1,3 @@
+--- # Main haproxy role
+- name: haproxy
+  include_tasks: haproxy.yml

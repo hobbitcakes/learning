@@ -1,0 +1,5 @@
+--- # Install the software
+- name: Install HAProxy via Package Manager
+  yum:
+    name: haproxy
+    state: present

@@ -1,0 +1,10 @@
+--- # Play to apply HAProxy role
+- hosts: haproxy
+  become: yes
+  become_method: sudo
+  gather_facts: no
+  tasks:
+    - name: haproxy role
+      import_role:
+        name: haproxy
+        

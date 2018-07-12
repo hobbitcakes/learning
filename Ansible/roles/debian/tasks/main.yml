@@ -2,8 +2,13 @@
   - name: update
     apt:
       update_cache: yes
-      name: "*"
+    become: yes
+    become_method: sudo
+  - name: upgrade
+    apt:
+      name: '*'
       state: latest
+      force_apt_get: True
     become: yes
     become_method: sudo
     

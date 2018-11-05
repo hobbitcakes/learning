@@ -1,0 +1,6 @@
+--- 
+- hosts: labservers
+  become: yes
+  tasks:
+    - name: Install Apache
+       

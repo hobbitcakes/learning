@@ -1,6 +1,8 @@
 --- 
-- hosts: labservers
+- hosts: httpd
   become: yes
   tasks:
     - name: Install Apache
-       
+      yum:
+        name: httpd
+        state: latest 

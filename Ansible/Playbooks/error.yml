@@ -1,0 +1,12 @@
+---
+- hosts: local
+  tasks:
+    - name: Get files
+      get_url:
+        url: "http://{{ item }}/index.html"
+        dest: "/tmp/{{ item }}"
+      ignore_errors: yes
+      with_items:
+        - jaredpeterson2.mylabserver.com
+        - jaredpeterson3.mylabserver.com
+        - jaredpeterson4.mylabserver.com

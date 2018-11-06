@@ -1,0 +1,13 @@
+---
+- hosts: local
+  tasks:
+    - name: Create file
+      file: 
+        path: /tmp/newfile
+        state: touch
+      register: output
+    - debug: msg="Register output is {{ output }}"
+    - name: Edit file
+      lineinfile:
+        path: /tmp/newfile
+        line: "{{ output.uid }}"

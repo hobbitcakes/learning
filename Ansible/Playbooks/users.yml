@@ -1,0 +1,11 @@
+--- 
+- hosts: local
+  become: yes
+  tasks:
+    - name: Create Users
+      user:
+        name: "{{ item }}"
+      with_items:
+        - sam
+        - john
+        - morgan

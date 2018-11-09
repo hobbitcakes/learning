@@ -1,5 +1,5 @@
 ---
-- hosts: jaredpeterson4.mylabserver.com
+- hosts: server4.mylabserver.com
   become: yes
   handlers:
     - name: restart apache

@@ -7,4 +7,4 @@
         path: /var/www/html/index.html
         line: "I'm back!!"
       when:
-        - ansible_hostname == "jaredpeterson4.mylabserver.com"
+        - ansible_hostname == "server4.mylabserver.com"

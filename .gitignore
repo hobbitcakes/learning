@@ -20,7 +20,8 @@ Lib/*
 lib64/
 parts/
 sdist/
-Scripts/*
+Scripts/
+Include/
 var/
 wheels/
 share/python-wheels/

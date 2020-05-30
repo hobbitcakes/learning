@@ -35,5 +35,4 @@ func sleep() {
 
 func main() {
 	openChrome()
-	sleep()
 }

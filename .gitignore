@@ -1,4 +1,4 @@
-cli-template/bin
+cli-template/bin/
 lib64
 share
 .DS_Store

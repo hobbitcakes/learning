@@ -6,9 +6,10 @@ import (
 )
 
 const CHROME_BINARY = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+const FIREFOX_BINARY = "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
 
 func openChrome() {
-	cmd := exec.Command(CHROME_BINARY, "-incognito")
+	cmd := exec.Command(FIREFOX_BINARY, "-private")
 	err := cmd.Start()
 	if err != nil {
 		log.Fatal(err)

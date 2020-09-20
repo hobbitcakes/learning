@@ -13,7 +13,6 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-  displayName: 'Run a multi-line script'
 - task: Go@0
   inputs:
     command: 'build'

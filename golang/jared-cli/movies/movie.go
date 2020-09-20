@@ -3,6 +3,6 @@ package movies
 // Movie - basic representation
 type Movie struct {
 	Filename string
-	Type     string
+	FileType string
 	Size     int64
 }

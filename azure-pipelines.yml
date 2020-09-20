@@ -19,9 +19,5 @@ steps:
   displayName: 'Run a multi-line script'
 - task: Go@0
   inputs:
-    command: 'install'
-    arguments: 'golang/jared-cli/'
-- task: Go@0
-  inputs:
     command: 'build'
     arguments: 'golang/jared-cli/'

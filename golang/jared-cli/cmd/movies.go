@@ -17,6 +17,7 @@ package cmd
 
 import (
 	"fmt"
+	"jared-cli/movies"
 
 	"github.com/spf13/cobra"
 )
@@ -32,7 +33,14 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
+
+		file, _ := cmd.Flags().GetString("filename")
+		thisMovie := movies.Movie{
+			Filename: file,
+			FileType: "mp4",
+			Size:     1024}
 		fmt.Println("movies called")
+		fmt.Println(thisMovie)
 	},
 }
 
@@ -47,5 +55,7 @@ func init() {
 
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
-	// moviesCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	moviesCmd.Flags().StringP("filename", "f", "", "Filename")
+	moviesCmd.MarkFlagRequired("filename")
+	moviesCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }

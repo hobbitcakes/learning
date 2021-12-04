@@ -2,12 +2,10 @@
 
 echo -e "Setting up an Ubuntu Workstation" && sleep 5
 
-packages="golang"
-packages="$packages rustc"
-packages="$packages vim"
-packages="$packages git"
-packages="$packages python3"
-packages="$packages tree"
+packages="golang rustc openjdk-11-jdk"
+packages="$packages maven"
+packages="$packages python3 python3-pip python3-venv"
+packages="$packages vim git tree"
 
 sudo apt update
 sudo apt upgrade
